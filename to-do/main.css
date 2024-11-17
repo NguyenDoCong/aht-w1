@@ -1,0 +1,17 @@
+body {
+
+    /* grid-template-columns: repeat(3, auto); */
+
+}
+
+.function,
+.result {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.done {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+}
