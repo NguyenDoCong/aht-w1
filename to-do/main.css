@@ -1,0 +1,27 @@
+body {
+
+    /* grid-template-columns: repeat(3, auto); */
+
+}
+
+form {
+    border: 1px solid grey;
+    padding: 1rem;
+}
+
+.function {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.done {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 3rem;
+}
